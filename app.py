@@ -60,5 +60,5 @@ def recommend():
     # distances-similarity_scores[index]
     return render_template("recommend.html",data=data)
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run()
 
